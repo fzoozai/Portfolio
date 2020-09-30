@@ -1,0 +1,22 @@
+import Head from 'next/head'
+import styles from '../styles/Home.module.css'
+import Link from 'next/link'
+
+export default function Home() {
+  return (
+    <div className={styles.container}>
+      <ul>
+        <li>
+          <Link href="/">
+            <a>Home</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/aboutme">
+            <a>About Us</a>
+          </Link>
+        </li>
+      </ul>
+    </div>
+  )
+}
