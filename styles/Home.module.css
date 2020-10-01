@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("../../portfolio/static/marburg.jpg");
+  background-image: url("../../portfolio/public//marburg.jpg");
   background-repeat: round;
   color: whitesmoke;
   font-family: monospace;
