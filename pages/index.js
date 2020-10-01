@@ -5,6 +5,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <div className={styles.container}>
+      <h1>Hello Marburg.</h1>
       <ul>
         <li>
           <Link href="/">
@@ -17,6 +18,7 @@ export default function Home() {
           </Link>
         </li>
       </ul>
+      <blockquote>Motivated by soosap</blockquote>
     </div>
   )
 }
