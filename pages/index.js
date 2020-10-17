@@ -6,20 +6,14 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <h1>Hello Marburg.</h1>
+      <h1>@fzoozai</h1>
       <ul>
         <li>
           <Link href="/">
             <a>Home</a>
           </Link>
         </li>
-        <li>
-          <Link href="/aboutme">
-            <a>About Us</a>
-          </Link>
-        </li>
       </ul>
-      <blockquote>Motivated by soosap</blockquote>
     </div>
   )
 }

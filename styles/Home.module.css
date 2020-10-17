@@ -3,11 +3,11 @@
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: url("../public/marburg.jpg");
-  color: whitesmoke;
+  background-image: url("../public/me.png");
+  background-repeat: no-repeat;
+  color: gold;
   font-family: monospace;
+  background-position: right 10px bottom 10px;
 }
 
 .footer a {
