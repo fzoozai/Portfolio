@@ -14,3 +14,14 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.landingPage {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.landingPage button {
+  height: 40px;
+  border: none;
+  padding: 10px;
+  margin: 10px; 
+  background-color: tomato;
+}
