@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="landingPage">
       <button>Fabian Soosaithasan</button>
-      <div className={styles.container}></div>
+      <div className="container"></div>
     </div>
   )
 }

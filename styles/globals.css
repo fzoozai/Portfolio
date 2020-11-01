@@ -25,3 +25,23 @@ a {
   margin: 10px; 
   background-color: tomato;
 }
+
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../public/bg-me.png");
+  clip-path: polygon(25% 0%, 90% 0%, 75% 100%, 12% 100%);
+  background-repeat: no-repeat;
+  color: gold;
+  font-family: monospace;
+  background-position: right 10px bottom 10px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .landingPage .container {
+    background-position-x: 37%;
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+  }
+}
